@@ -1,0 +1,183 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0ECE5;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color:#E3E3E3;
+}
+.header{
+    background-color: #161A30;
+    text-align: center;
+    padding: 0;
+    font-size: 0.7rem;
+    border: 0.1rem solid black;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+container{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    padding: 0.2rem;
+    background: #B6BBC4;
+    align-items: center;
+}
+
+.contents{
+    flex: 1;
+    border:0.1rem solid black;
+    margin:1rem;
+}
+
+.desktop_box{
+    flex: 1;
+    background-color: #B6BBC4;
+}
+
+.box1, .box2, .box3{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background: #161A30;
+    border:0.1rem solid black;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    text-align: center;
+    width:100%;
+    margin:0.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.photo, .name{
+    background: none;
+
+    margin:0.5rem;
+}
+
+.name h1{
+    margin: 0;
+    padding:0;
+    font-size: 1rem;
+}
+
+.profile img {
+    width: 97%;
+    height: 97%;
+    object-fit: cover;
+    border: 0.1rem solid #B6BBC4;
+    border-radius: 50%;
+}
+
+.profile {
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+}
+
+
+.box2{
+    display:flex;
+    flex-direction: row;
+    padding:0rem;
+    margin:0;
+}
+
+.box2 h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.introduction, .early_life{
+    background: #B6BBC4;
+    margin:1rem;
+    border: 0.1rem solid black;
+    text-align: left;
+    color: #161A30;
+}
+.introduction p, .early_life p{
+    background: #31304D;
+    margin:0.2rem;
+    border: 0.1rem solid black;
+    padding: 0.1rem;
+    color: #F0ECE5;
+}
+
+.introduction h1, .early_life h1{
+    background: #31304D;
+    border-bottom: 0.1rem solid black;
+    margin:0;
+    color: #F0ECE5;
+}
+
+.box3{
+    display: flex;
+    margin:0;
+    margin-top: 0.2rem;
+    
+}
+
+.box3_1, .box3_2{
+    background:none;
+    width:100%;
+}
+.box3_1{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    align-items: center;
+    height: 100%;
+}
+
+.box3_1 p {
+    width: 60%;
+    margin: auto auto;
+    text-align: left;
+    padding:0.2rem;
+}
+
+.list{
+    background-color: #31304D;
+    border: 0.1rem solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0.2rem;
+    font-size: 0.8rem;
+}
+
+
+.hobbies, .goals{
+    flex:1;
+    border: 0.1rem solid black;
+    align-items: center;
+}
+
+.quote{
+    margin-top: 0.5rem;
+
+}
+
+.hobbies, .goals, .quote{
+    background: #B6BBC4;
+    border: 0.1rem solid black;
+}
+
+.box3 h1{
+    border-bottom:0.1rem solid black;
+    padding:0.05rem;
+    background: #31304D;
+    font-size: 1.0rem;
+    margin: 0rem;
+}
+
+.quote{
+    padding:0.25rem;
+    color: #161A30;
+}

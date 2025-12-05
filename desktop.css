@@ -1,0 +1,85 @@
+@media only screen and (min-width: 720px) {
+    container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        height: 100%;
+    }
+
+    .box1 {
+        flex: 1;
+        height: 100%;
+    }
+
+    .profile {
+        width: 20rem;
+        height: 20rem;
+        overflow: hidden;
+    }
+
+    .name h1{
+        font-size: 2rem;
+    }
+
+    .desktop_box {
+        flex: 1.5;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .box2, .box3 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .box3_1 {
+        flex: 2;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .box3_1 > div {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .box3_1 h1 {
+        width: 100%;
+    }
+
+    .list {
+        border: 0.1rem solid black;
+        display: flex;
+        align-items: center;
+        margin: 0.2rem;
+        font-size: 0.8rem;
+        height: 100%;
+        width: 95%;
+    }
+
+    .hobbies {
+        flex: 1.1;
+    }
+
+    .goals {
+        flex: 1;
+    }
+
+    .box3_2 {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quote {
+        padding: 1rem;
+    }
+}
